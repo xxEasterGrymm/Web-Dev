@@ -1,0 +1,52 @@
+p {
+	color: red;
+}
+h1 {
+	color: magenta;
+	font-size:50px;
+	text-align: center;
+}
+#prog {
+	color: red;
+	font-size: 30px;
+	opacity: 0.8;
+	font-weight: bold;
+	margin-top: 60px;
+}
+ul {
+	color: hotpink;
+	background-color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+}
+ul li:nth-child(odd):hover {
+	background-color: gray;
+	cursor: pointer;
+}
+footer {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 30px;
+}
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+article {
+	text-align: center;
+}
